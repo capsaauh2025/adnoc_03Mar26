@@ -139,6 +139,11 @@ const MidContent = ({ lang }: any) => {
     content = (
       <div className="main section2">
         <div className="container">
+          {/* Scrolling Red Warning */}
+                  <div className="w-full overflow-hidden mb-4">
+                    <div className="animate-marquee whitespace-nowrap text-red-600 font-bold text-2xl md:text-3xl">
+                      We are currently facing issues with the website. Team is working to resolve it at the earliest. Meanwhile, please reach out compliance@adnoc.ae to report any concerns till the issue is resolved.
+                    </div>
           <div className="flex flex-col lg:flex-row justify-between mb-14">
             <div className=" font-custom left">
               <div className="text-2xl text1 mt-14 font-bold font-custom">
